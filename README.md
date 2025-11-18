@@ -8,15 +8,24 @@
     A production-ready full-stack SaaS monorepo starter
     <br />
     <br />
+    <a href="./docs/README.md"><strong>📖 Documentation</strong></a> ·
+    <a href="./docs/guides/GETTING_STARTED.md"><strong>🚀 Getting Started</strong></a> ·
     <a href="#whats-included"><strong>What's included</strong></a> ·
-    <a href="#prerequisites"><strong>Prerequisites</strong></a> ·
-    <a href="#getting-started"><strong>Getting Started</strong></a>
+    <a href="#key-features"><strong>Key Features</strong></a>
   </p>
 </p>
 
 Everything you need to build a production-ready full-stack SaaS. An opinionated stack using the latest Next.js framework with TanStack Query, Supabase, and modern tooling. This monorepo focuses on code reuse and best practices that will grow with your business.
 
 > **Note:** This is a fork and evolution of the [Midday V1](https://github.com/midday-ai/v1) starter kit, enhanced with TanStack Query for robust server state management and additional full-stack features.
+
+## 📖 Documentation
+
+- **[Documentation Hub](./docs/README.md)** - Complete documentation index
+- **[Getting Started Guide](./docs/guides/GETTING_STARTED.md)** - Quick start and setup
+- **[Architecture Overview](./docs/current/ARCHITECTURE.md)** - System design and patterns
+- **[React Query Guide](./docs/guides/REACT_QUERY_GUIDE.md)** - Data fetching with TanStack Query
+- **[Monorepo Structure](./docs/current/MONOREPO_STRUCTURE.md)** - Understanding the monorepo
 
 ## What's included
 
@@ -155,3 +164,23 @@ bun clean:workspaces # Clean all build outputs
 - **Background jobs** - Trigger.dev for async tasks
 - **Rate limiting** - Upstash Redis-based rate limiting
 - **E2E testing** - Playwright for reliable end-to-end testing
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](./docs/development/CONTRIBUTING.md) for details.
+
+## Documentation
+
+For comprehensive documentation, visit the [docs](./docs) directory:
+
+- **Getting Started**: [Setup Guide](./docs/guides/GETTING_STARTED.md)
+- **Architecture**: [System Design](./docs/current/ARCHITECTURE.md)
+- **Guides**: [React Query](./docs/guides/REACT_QUERY_GUIDE.md), [Supabase](./docs/guides/SUPABASE_GUIDE.md)
+- **Development**: [Standards](./docs/development/DEVELOPMENT_STANDARDS.md), [Testing](./docs/development/TESTING_GUIDE.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+Original work Copyright (c) 2024 Midday Labs AB<br>
+Modified work Copyright (c) 2025 Wolven Tech Advisory
