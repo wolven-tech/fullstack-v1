@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(bun add:*)",
+      "Bash(bun init:*)",
+      "Bash(bun remove:*)",
+      "Bash(bun test:*)",
+      "Bash(bun install:*)",
+      "Bash(bun run dev)",
+      "Bash(bun run typecheck:*)",
+      "Bash(bunx playwright install:*)",
+      "Bash(bunx playwright test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
