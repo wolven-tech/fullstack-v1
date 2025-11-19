@@ -45,6 +45,7 @@ Then follow the [Getting Started Guide](./docs/guides/GETTING_STARTED.md) to:
 ## What's included
 
 [Next.js](https://nextjs.org/) - Framework<br>
+[ElysiaJS](https://elysiajs.com/) - High-performance API server with Bun<br>
 [Turborepo](https://turbo.build) - Build system<br>
 [Biome](https://biomejs.dev) - Linter, formatter<br>
 [TailwindCSS](https://tailwindcss.com/) - Styling<br>
@@ -71,7 +72,7 @@ Then follow the [Getting Started Guide](./docs/guides/GETTING_STARTED.md) to:
 ```
 .
 ├── apps                         # App workspace
-│    ├── api                     # Supabase (API, Auth, Storage, Realtime, Edge Functions)
+│    ├── api                     # ElysiaJS API server + Supabase (Auth, Database, Storage)
 │    ├── app                     # App - your product
 │    ├── web                     # Marketing site
 │    └── ...
@@ -162,7 +163,7 @@ bun clean:workspaces # Clean all build outputs
 ### Apps
 - `apps/app` - Main SaaS application with authentication and dashboard
 - `apps/web` - Marketing website
-- `apps/api` - Supabase local development setup
+- `apps/api` - ElysiaJS API server with Supabase integration
 
 ### Packages
 - `packages/analytics` - PostHog analytics integration
